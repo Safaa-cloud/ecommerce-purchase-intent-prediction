@@ -1,0 +1,25 @@
+{
+  "selected_model": "Random Forest",
+  "best_cv_f1": 0.4176353532195913,
+  "precision": 0.30082644628099175,
+  "recall": 0.47643979057591623,
+  "f1": 0.36879432624113473,
+  "roc_auc": 0.7548449417652319,
+  "pr_auc": 0.3425447314442088,
+  "confusion_matrix": [
+    [
+      1661,
+      423
+    ],
+    [
+      200,
+      182
+    ]
+  ],
+  "threshold": 0.5,
+  "best_params": {
+    "model__n_estimators": 200,
+    "model__min_samples_leaf": 3,
+    "model__max_depth": 12
+  }
+}
