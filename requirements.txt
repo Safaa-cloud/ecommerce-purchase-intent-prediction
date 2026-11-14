@@ -1,9 +1,12 @@
-streamlit>=1.32,<2
-pandas>=2.0,<3
-numpy>=1.24,<3
-scikit-learn>=1.3,<2
-joblib>=1.3,<2
-matplotlib>=3.7,<4
-seaborn>=0.13,<1
-ucimlrepo>=0.0.7
-jupyter>=1.0
+# Keep this file identical for model training and Streamlit inference.
+streamlit==1.49.1
+pandas==2.3.2
+numpy==1.26.4
+scikit-learn==1.7.2
+scipy==1.16.1
+joblib==1.5.2
+threadpoolctl==3.6.0
+matplotlib==3.10.6
+seaborn==0.13.2
+ucimlrepo==0.0.7
+jupyter==1.1.1
